@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 
     <div id="grid_wrapper2">
         <header>
             <h1 id="icon">[ICON]</h1>
-            <!-- <ul class="brackets">
-                <li id="vänster"><h1 class="klammer">[</h1></li>
-                <li id="höger"><h1 class="klammer">]</h1></li>
-            </ul> -->
         </header>
 
         <nav>
-
-            <ul id="nav-links">
+        <ul id="nav-links">
+                <li><a href="Index.html">Hem</a></li>
                 <li><a href="kategori.html">Kategori</a></li>
+                <li><a href="ovrigt.html">Övrigt</a></li>
                 <li>
-                    <label for="menu-toggle" id="menutoggle">Stilar</label>
-                    <input type="checkbox" id="menu-toggle" />
+                    <label for="menu-toggle">Stilar</label>
+                    <input type="checkbox" id="menu-toggle"/>
+                
                     <ul id="menu">
                         <li><a href="street.html">Street</a></li>
                         <li><a href="casual.html">Casual</a></li>
@@ -36,8 +32,7 @@
                     </ul>
 
                 </li>
-                <li><a href="ovrigt.html">Övrigt</a></li>
-                <li><a href="Index.html">Hem</a></li>
+                
             </ul>
 
             <div id="burger" class="">
@@ -46,41 +41,33 @@
                 <div id="line_3" class="burger_line"></div>
             </div>
 
-            
         </nav>
 
-        <div class="namn">
-            <div class="bildtext_uppe">
-                <p class="bildtext1">Street</p>
-                <p class="bildtext2">Casual</p>
-                <p class="bildtext3">Vintage</p>
-            </div>
-        </div>
+        <main id="main1">
+        <a href="#">
+            <h2>Street</h2>
+            <img src="img/street.jpg" alt="bildlänk street" width="350" height="450" id="street_bild">
+        </a>
 
-        
-            <div class="bildtext_nere"> 
-                <p class="bildtext4">Grunge</p>
-            </div>
-        
-        
-
-        
-        <main id="main">
-
-            <a href="street.html">
-                <img src="img/street.jpg" alt="bildlänk street" width="350" height="450" id="streetbild">
-            </a>
-            <a href="casual.html">
-                <img src="img/casual.jpg" alt="bildlänk casual" width="350" height="450" id="casualbild">
-            </a>
-            <a href="vintage.html">
-                <img src="img/vintage.jpg" alt="bildlänk vintage" width="350" height="450" id="vintagebild">
-            </a>
-            <a href="grunge.html">
-                <img src="img/grunge.jpg" alt="bildlänk grunge" width="350" height="450" id="grungebild">
-            </a>
-
+        <a href="#">
+            <h2>Casual</h2>
+            <img src="img/casual.jpg" alt="bildlänk casual" width="350" height="450" id="casual_bild">
+        </a>
         </main>
+
+        <main id="main2">
+        
+            <a href="#">
+                <h2>Vintage</h2>
+                <img src="img/vintage.jpg" alt="bildlänk vintage" width="350" height="450" id="vintage_bild">
+            </a>
+        
+            <a href="#">
+                <h2>Grunge</h2>
+                <img src="img/grunge.jpg" alt="bildlänk grunge" width="350" height="450" id="grunge_bild">
+            </a>
+        </main>
+
 
         <Footer>
             <a href="#">
@@ -88,23 +75,21 @@
                 <p class="footer_links">Vanliga frågor</p>
                 <p class="footer_links">Lorem, ipsum.</p>
                 <p class="footer_links">Kontakt</p>
-
+    
             </a>
-
-            <a href="https://www.facebook.com/add.a.link/" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/?lang=sv" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-            <a href="https://www.snapchat.com/sv-SE" class="fa fa-snapchat"></a>
+    
+            <div class="social-media">
+            <a href="https://www.facebook.com/add.a.link/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/?lang=sv" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.snapchat.com/sv-SE" class="fa fa-snapchat" target="_blank"></a>
+        </div>
         </Footer>
 
 
+        <script src="js/script.js"></script>
+
     </div>
-
-
-
-    <script src="js/script.js"></script>
-
-
+    
 </body>
-
 </html>
